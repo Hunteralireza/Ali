@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+    font-family: XD;
+    src: url(../fonts/Vazir-Bold.woff);
+
+}
+
+ 
+    
+
+
+
+
+body
+{
+    font-size: 14px;
+
+    padding: 0;
+    margin: 0;
+    background-color: #848484;
+    direction: rtl;
+    font-family: XD;
+    
+}
+
+.container
+{
+    width: 80%; 
+    margin: auto;
+    overflow: hidden;
+        
+    
+    
+}
+ul
+{
+    padding: 0;
+    margin: 0;
+    }
+.header
+{
+    color: #FFFFFF;
+    padding-top: 35px;
+    min-height: 60px;
+    background-color: #1D0065;
+    border-bottom: 5px solid #9BF500;
+    
+    
+}
+
+.header a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 15px;
+    
+    
+}
+
+.header ul li:hover
+{
+    color: #FFFFFF;
+    background-color: red;
+    border-radius: 5px;
+
+    
+    
+    
+    
+}
+.header li
+{
+    display: inline;
+    padding: 0 20px;
+    float: right;
+    font-size: 20px;
+    margin-bottom:5px;
+    
+   
+        
+}
+
+.header logoText
+{
+    
+    float: right;
+}
+
+.header .logoText h1{
+    margin: 0;
+}
+
+    
+      
+
+
+
+
+    
+
+
+.header .nav
+{
+    float: left;
+    
+}
+
+.bgDesShow
+{
+   
+    color: #FFFFFF;
+    text-align: center;
+    min-height: 420px;
+    background: url("../image/banner-1504653_960_720.webp")
+}
+
+.bgDesShow h2{
+    font-size: 60px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.bgDesShow p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.boxes
+{
+    margin-top: 25px;
+}
+.boxes .box{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+        
+    
+}
+.boxes .box img{
+    width: 150px;
+}
+.boxes .box h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.boxes .box p{
+    font-size: 20px;
+}
+.boxes .boxl{
+  float: left;
+     width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+.boxes .boxl img{
+    width: 100px;
+    
+}
+.boxes .boxl h3{
+     font-weight: bold;
+    font-size: 25px;
+    
+}
+.boxes .boxl p{
+    font-size: 20px;
+    
+}
+
+
+.sidbar{
+    
+    width: 30%;
+    float: right;
+    margin-top: 30px;
+    padding: 15px;
+    color: #FFFFFF;
+    background-color: #130044;
+    border-radius: 30px;
+    
+}
+.post{
+    
+    float: left;
+    width: 65%;
+}
+.sidbar h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.sidbar p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.sidbaf{
+    width: 30%;
+    float: right;
+    margin-top: 30px;
+    padding: 15px;
+    color: #FFFFFF;
+    background-color: #130044;
+    border-radius: 30px;
+    
+    
+}
+.sidbaf p{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.sidbaf h2{
+     font-weight: bold;
+    font-size: 30px;
+}
+
+.post h1{
+    font-size: 40px;
+}
+.post p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.footer{
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px;
+    color: #FFFFFF;
+    background-color:#B41012;
+   
+    
+
+    
+}
+.footer p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.contact-box
+{
+    width: 450px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 00 20px 0 #222;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+   
+    
+    
+}
+    
+.form{
+    margin: 35px;
+}
+
+.input-field{
+    
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #939CFF;
+    border-radius: 14px;
+    outline: none;
+}
+
+
+ .textarea-field
+{
+    height: 150px;
+    padding-top: 15px;
+}
+  
+
+
+.btn
+{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18;
+padding: 10px;
+    background-color: #01AA14;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.footers{
+    margin-top: 490px;
+    text-align: center;
+    padding: 15px;
+    
+    
+    color: #FFFFFF;
+    background-color:#B41012;
+}
+
+.footers p{
+     font-weight: bold;
+    font-size: 20px;
+}
+
+.sidbar img{
+    width: 100px;
+}
+
+
+
+.sidbarl
+{
+     width: 30%;
+    float: left;
+    margin-top: 30px;
+    padding: 15px;
+    color: #FFFFFF;
+    background-color: #130044;
+    border-radius: 30px;
+}
+
+
+.sidbarl h2
+{
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.sidbarl p
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+@media(max-width:768px){
+    
+    .header .logoText,
+    .header .nav,
+    .header .nav li,
+    .main-post .post,
+    .main-post .sidbar,
+    .boxes .box,
+    .boxes .boxl,
+    .main-post .sidbarl
+    
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .header{
+        padding-bottom: 15px;
+    }
+    
+    .bgDesShow h2{
+        font-size: 42px;
+    }
+    
+    .bgDesShow p{
+        font-size: 15px;
+    }
+     .boxes .box
+    {
+        float: none;
+    }
+    .main-post .sidbarl
+    {
+        display: none;
+    }
+   
+    .main-post .sidbar
+    {
+        padding:  15px 0;
+    }
+    .main-post .sidbar p{
+        padding: 10px;
+    }
+        
+        
+    
+    
+   
+    
+}
